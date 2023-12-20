@@ -110,7 +110,7 @@ button:active {
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
 } 
 
 .search-form__fieldset {
