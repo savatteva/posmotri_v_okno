@@ -50,17 +50,17 @@ span:not(.content__accent),
   cursor: pointer;
 }
 
-button:hover,
-a:hover,
+.button:hover,
+.content__list-item:hover,
 .search-form__fieldset:has(.search-form__checkbox):hover {
   text-decoration: underline;
 }
 
-button:focus {
+.button:focus {
   outline: none;
 }
 
-button:focus-visible {
+.button:focus-visible {
   outline: #fff;
   margin: 2px;
 }
@@ -110,7 +110,7 @@ button:active {
 .search-form {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 } 
 
 .search-form__fieldset {
