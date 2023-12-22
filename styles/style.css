@@ -186,7 +186,6 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after{
   font-size: inherit;
   line-height: inherit;
   height: 34px;
-  margin: 2px;
 } 
 
 .search-form__submit-button {
@@ -281,4 +280,5 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after{
 
 .more-button {
   width: 99%;
+  margin: 2px;
 }
