@@ -70,9 +70,10 @@ span:not(.content__accent),
 .button:focus-visible,
 .search-form__textfield:focus-visible,
 .content__card-link:focus-visible,
-.search-form__label:focus-within  {
+.search-form__label:focus-within,
+.more-button:focus-visible {
   outline: 1px solid #fff;
-  outline-offset: 2px;
+  outline-offset: 1px;
 }
 
 .button:active {
@@ -189,7 +190,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after{
 
 .search-form__submit-button {
   display: flex;
-  width: 30%;
+  min-width: 194px;
   justify-content: center;
   align-items: center;
   align-self: flex-end;
