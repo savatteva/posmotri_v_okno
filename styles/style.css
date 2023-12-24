@@ -96,7 +96,6 @@ span:not(.content__accent),
   align-items: flex-end;
   gap: 30px;
   width: 1140px;
-  height: 534px;
 }
 
 .result {
@@ -185,7 +184,7 @@ input[type='checkbox']:checked + .search-form__pseudo-checkbox::after{
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  height: 34px;
+  min-height: 34px;
 } 
 
 .search-form__submit-button {
